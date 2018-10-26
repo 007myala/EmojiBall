@@ -146,7 +146,7 @@ void checkLight(){
     if(moodPoints >= 1000){
       moodPoints = 1000;
     } else {
-      moodPoints += 50;
+      moodPoints += 100;
     }   
   } else {
     // Light is dim, lose mood points, min points 0
@@ -154,7 +154,7 @@ void checkLight(){
     if(moodPoints <= 0){
       moodPoints = 0;
     } else {
-      moodPoints -= 50;
+      moodPoints -= 150;
     }
   }
 }
